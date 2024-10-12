@@ -54,24 +54,13 @@ body {
     margin-bottom: 15px;
 }
 
-/* video Article */
+/* Video Article */
 .video-article {
     margin-top: 30px;
     background-color: white;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.article-title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.article-intro {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
 }
 
 /* Featured News */
