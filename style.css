@@ -1,10 +1,10 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7; /* Color de fondo gris claro para simular papel */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #333; /* Texto principal en gris oscuro */
 }
 
 .container {
@@ -17,8 +17,8 @@ body {
 .main-header {
     text-align: center;
     padding: 20px;
-    background-color: #c40040;
-    color: white;
+    background-color: #f7f7f7; /* Fondo gris claro similar a periódicos */
+    color: #000; /* Texto negro */
 }
 
 .newspaper-title {
@@ -26,12 +26,14 @@ body {
     margin: 0;
     text-transform: uppercase;
     font-family: 'Georgia', serif;
+    color: #000; /* Título en negro */
 }
 
 .tagline {
     font-size: 1.2rem;
     font-style: italic;
     margin-top: 10px;
+    color: #666; /* Subtítulo en gris medio */
 }
 
 /* Main Article */
@@ -39,19 +41,21 @@ body {
     margin-top: 30px;
     background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* Borde gris claro */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .article-title {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #111; /* Títulos principales en gris casi negro */
 }
 
 .article-intro {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 15px;
+    color: #333; /* Texto en gris oscuro */
 }
 
 /* Video Article */
@@ -87,6 +91,7 @@ body {
 .news-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #222; /* Subtítulos en gris oscuro */
 }
 
 /* Bibliography */
@@ -101,6 +106,7 @@ body {
 .bibliography h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #111; /* Títulos de la bibliografía en gris oscuro */
 }
 
 .bibliography ul {
@@ -113,7 +119,7 @@ body {
 }
 
 .bibliography a {
-    color: #c40040;
+    color: #c40040; /* Rojo tradicional para enlaces destacados */
     text-decoration: none;
     font-weight: bold;
 }
@@ -127,6 +133,6 @@ body {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-    background-color: #333;
-    color: white;
+    background-color: #333; /* Fondo oscuro en el pie de página */
+    color: white; /* Texto en blanco */
 }
