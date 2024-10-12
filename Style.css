@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #c40040;
+    color: white;
+}
+
+.newspaper-title {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Main Article */
+.main-article {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.article-intro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* video Article */
+.video-article {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.article-intro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Featured News */
+.featured-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.news-item {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Bibliography */
+.bibliography {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bibliography h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bibliography ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bibliography li {
+    margin-bottom: 10px;
+}
+
+.bibliography a {
+    color: #c40040;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bibliography a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+}
