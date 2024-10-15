@@ -1,8 +1,10 @@
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7; /* Color de fondo gris claro para simular papel */
-    margin: 0;
+    margin-left: 10em;
+    margin-right: 10em;
     padding: 0;
     color: #333; /* Texto principal en gris oscuro */
 }
@@ -19,6 +21,10 @@ body {
     padding: 20px;
     background-color: #f7f7f7; /* Fondo gris claro similar a periódicos */
     color: #000; /* Texto negro */
+}
+
+.main-header img {
+    height: 30em;
 }
 
 .newspaper-title {
@@ -42,7 +48,7 @@ body {
     background-color: white;
     padding: 20px;
     border: 1px solid #ccc; /* Borde gris claro */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 .article-title {
@@ -63,8 +69,8 @@ body {
     margin-top: 30px;
     background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 20px;
 }
 
 /* Featured News */
@@ -78,8 +84,8 @@ body {
 .news-item {
     background-color: white;
     padding: 15px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 20px;
 }
 
 .news-item img {
@@ -99,8 +105,8 @@ body {
     margin-top: 40px;
     padding: 20px;
     background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 20px;
 }
 
 .bibliography h2 {
