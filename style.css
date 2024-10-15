@@ -23,8 +23,8 @@ body {
     color: #000; /* Texto negro */
 }
 
-.main-header img {
-    height: 30em;
+.header.image {
+    max-height: 20em;;
 }
 
 .newspaper-title {
