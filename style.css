@@ -3,7 +3,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7; /* Color de fondo gris claro para simular papel */
-    margin: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
     padding: 0;
     color: #333; /* Texto principal en gris oscuro */
 }
